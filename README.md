@@ -1,10 +1,11 @@
-README.md
+# Projeto Filmes - UC3 - JS - SENAC
 
-#Qual o nome do projeto?
+## Sobre o que é o projeto?
+- Projeto em Javascript, para apresentar uma lista de filmes com informações de titulo, imagem, duração e avaliação do filme
 
-#Sobre o que é o projeto?
+## Quais foram os principais recursos do Javascript utilizado?
+- Objetos;
+- integração entre Javascript e HTML;
 
-#Quais foram os principais recursos do Javascript utilizado?
-
-#Qual aprendizado você leva desse projeto?
+## Qual aprendizado você leva desse projeto?
 
