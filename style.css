@@ -12,6 +12,16 @@ header {
     margin-bottom: 10px;
 }
 
+h1{
+    color:#3b0003
+}
+
+.menu-principal a{
+    text-decoration: none;
+    color: #2c2c2c;
+    
+}
+
 .banner {
     height: 500px;
     width: 100%;

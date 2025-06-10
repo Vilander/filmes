@@ -29,6 +29,12 @@ let filme4 = {
     avaliacao: "9/10",
     duracao: "2h05m"
 }
+let filme5 = {
+    titulo: "Um Filme Minecraft",
+    foto: "filme5.jpg",
+    avaliacao: "8/10",
+    duracao: "1h41m"
+}
 
 function fnMontarCartao(filmeAtual) {
     document.querySelector(".lista-filmes").innerHTML +=`
@@ -46,3 +52,4 @@ fnMontarCartao(filme1)
 fnMontarCartao(filme2)
 fnMontarCartao(filme3)
 fnMontarCartao(filme4)
+fnMontarCartao(filme5)
