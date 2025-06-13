@@ -73,8 +73,9 @@
 async function fnPegarFilmes(){
     let filmes = await fetch("dados-filmes.json")
     let filmesTratados = await filmes.json()
+    let filmesComNota5 = filmesTratados.filter(filme => filme.avaliacao == 5);
 
-    filmesTratados.slice(0,4).forEach((filmeAtual)=>{
+    filmesComNota5.slice(0,4).forEach((filmeAtual)=>{
         document.querySelector(".lista-filmes").innerHTML += `
         <div class="card-filme">
             <img src="${filmeAtual.foto}">
